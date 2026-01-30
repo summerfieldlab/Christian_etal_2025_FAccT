@@ -1,0 +1,11 @@
+RewardBench Rank,Model ID,Developer,Model Name,Base Model,Parameters (B)
+2,N-Gem-27B,nicolinho,QRM-Gemma-2-27B,Gemma 2,27
+3,S-Gem-27B-v0.2,Skywork,Skywork-Reward-Gemma-2-27B-v0.2,Gemma 2,27
+5,S-Gem-27B,Skywork,Skywork-Reward-Gemma-2-27B,Gemma 2,27
+10,S-Lla-8B-v0.2,Skywork,Skywork-Reward-Llama-3.1-8B-v0.2,Llama 3.1,8
+11,N-Lla-8B,nicolinho,QRM-Llama3.1-8B,Llama 3.1,8
+12,L-Lla-8B,LxzGordon,URM-LLaMa-3.1-8B,Llama 3.1,8
+17,R-Lla-8B,Ray2333,GRM-Llama3-8B-rewardmodel-ft,Llama 3,8
+19,R-Lla-3B,Ray2333,GRM-Llama3.2-3B-rewardmodel-ft,Llama 3.2,3
+20,F-Lla-8B-v0.1,RLHFlow,ArmoRM-Llama3-8B-v0.1,Llama 3,8
+31,R-Gem-2B,Ray2333,GRM-gemma2-2B-rewardmodel-ft,Gemma 2,2

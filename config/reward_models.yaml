@@ -1,0 +1,126 @@
+- name: nicolinho/QRM-Gemma-2-27B
+  nickname: N-Gem-27B
+  family: gemma2
+  base_model: Gemma
+  base_version: "2"
+  size: 27B
+  reward_bench_rank: 2
+  multi_gpu: true
+  batch_size: 32
+  params:
+    torch_dtype: bfloat16
+    trust_remote_code: true
+    revision: eef8d852e886240e308a57b61d69f0e58489f0ed
+
+- name: Skywork/Skywork-Reward-Gemma-2-27B-v0.2
+  nickname: S-Gem-27B-v0.2
+  family: gemma2
+  base_model: Gemma
+  base_version: "2"
+  size: 27B
+  reward_bench_rank: 3
+  multi_gpu: true
+  batch_size: 32
+  params:
+    torch_dtype: bfloat16
+
+- name: Skywork/Skywork-Reward-Gemma-2-27B
+  nickname: S-Gem-27B
+  family: gemma2
+  base_model: Gemma
+  base_version: "2"
+  size: 27B
+  reward_bench_rank: 5
+  multi_gpu: true
+  batch_size: 32
+  params:
+    torch_dtype: bfloat16
+
+- name: Skywork/Skywork-Reward-Llama-3.1-8B-v0.2
+  nickname: S-Lla-8B-v0.2
+  family: llama3
+  base_model: Llama
+  base_version: "3.1"
+  size: 8B
+  reward_bench_rank: 10
+  multi_gpu: true
+  batch_size: 32
+  params:
+    torch_dtype: bfloat16
+    num_labels: 1
+
+- name: nicolinho/QRM-Llama3.1-8B
+  nickname: N-Lla-8B
+  family: llama3
+  base_model: Llama
+  base_version: "3.1"
+  size: 8B
+  reward_bench_rank: 11
+  multi_gpu: true
+  batch_size: 32
+  params:
+    torch_dtype: bfloat16
+    trust_remote_code: true
+    revision: 74280eebb9580bfecff5d0b2edb81f7d6186a204
+
+- name: LxzGordon/URM-LLaMa-3.1-8B
+  nickname: L-Lla-8B
+  family: llama3
+  base_model: Llama
+  base_version: "3.1"
+  size: 8B
+  reward_bench_rank: 12
+  multi_gpu: true
+  batch_size: 64
+  params:
+    torch_dtype: float16
+
+- name: Ray2333/GRM-Llama3-8B-rewardmodel-ft
+  nickname: R-Lla-8B
+  family: llama3
+  base_model: Llama
+  base_version: "3"
+  size: 8B
+  reward_bench_rank: 17
+  multi_gpu: false
+  batch_size: 64
+  params:
+    torch_dtype: float16
+
+- name: Ray2333/GRM-Llama3.2-3B-rewardmodel-ft
+  nickname: R-Lla-3B
+  family: llama3
+  base_model: Llama
+  base_version: "3.2"
+  size: 3B
+  reward_bench_rank: 19
+  multi_gpu: false
+  batch_size: 128
+  params:
+    torch_dtype: float16
+
+- name: RLHFlow/ArmoRM-Llama3-8B-v0.1
+  nickname: F-Lla-8B-v0.1
+  family: llama3
+  base_model: Llama
+  base_version: "3"
+  size: 8B
+  reward_bench_rank: 20
+  multi_gpu: true
+  batch_size: 32
+  params:
+    torch_dtype: bfloat16
+    trust_remote_code: true
+    revision: 39aadadd6d1b66ab358f0b4ce8899624c35c7434
+
+- name: Ray2333/GRM-gemma2-2B-rewardmodel-ft
+  nickname: R-Gem-2B
+  family: gemma2
+  base_model: Gemma
+  base_version: "2"
+  size: 2B
+  reward_bench_rank: 31
+  multi_gpu: false
+  batch_size: 256
+  params:
+    torch_dtype: float16

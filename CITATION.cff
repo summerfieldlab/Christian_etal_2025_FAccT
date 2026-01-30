@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Reward Model Interpretability via Optimal and Pessimal Tokens"
+authors:
+  - family-names: Christian
+    given-names: Brian
+  - family-names: Kirk
+    given-names: Hannah Rose
+  - family-names: Thompson
+    given-names: Jessica A.F.
+  - family-names: Summerfield
+    given-names: Christopher
+  - family-names: Dumbalska
+    given-names: Tsvetomira
+year: 2025
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Reward Model Interpretability via Optimal and Pessimal Tokens"
+  authors:
+    - family-names: Christian
+      given-names: Brian
+    - family-names: Kirk
+      given-names: Hannah Rose
+    - family-names: Thompson
+      given-names: Jessica A.F.
+    - family-names: Summerfield
+      given-names: Christopher
+    - family-names: Dumbalska
+      given-names: Tsvetomira
+  collection-title: "Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency (FAccT)"
+  year: 2025
+  doi: "10.1145/3715275.3732068"
+  publisher:
+    name: "ACM"
